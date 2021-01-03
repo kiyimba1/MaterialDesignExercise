@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { DinosaursComponent } from './dinosaurs/dinosaurs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DinosaursComponent
   ],
   imports: [
     BrowserModule,
